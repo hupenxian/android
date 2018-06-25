@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:rowCount="6"
+    android:columnCount="3"
+    android:layout_gravity="center"
+    tools:context="com.example.apple.myapplication.two">
+
+    <TextView
+        android:text="Tic-Tac-Toe"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_columnSpan="3"/>
+
+
+    <Button
+        android:id="@+id/two_1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/two_2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/two_3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/two_4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/two_5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/two_6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/two_7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/two_8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    <Button
+        android:id="@+id/two_9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:layout_columnSpan="3"
+        android:layout_gravity="fill"
+        android:text="RESET"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_two_reset"/>
+
+    <TextView
+        android:layout_columnSpan="3"
+        android:layout_height="60dp"
+        android:id="@+id/two_result"
+        android:textColor="@color/colorAccent"/>
+
+
+
+
+</GridLayout>
